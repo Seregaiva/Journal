@@ -1,0 +1,30 @@
+Pupkin Vasya
+C++ : 10 12 
+Uml : 118
+Shabanov Viktor
+C++ : 11 12 
+Uml : 10
+Naydin Dima
+C++ : 11 
+Uml : 9
+Petrov Alexey
+C++ : 12 10 
+Uml : 11
+Sidorov Sergey
+C++ : 8 9 
+Uml : 6
+Ivanov Ivan
+C++ : 10 10 10 
+Uml : 8
+Fedorov Anton
+C++ : 
+Uml : 
+Nikitin Dima
+C++ : 
+Uml : 12
+Izmailov Vasya
+C++ : 12 
+Uml : 10
+Pyatochkin Petya
+C++ : 
+Uml : 
