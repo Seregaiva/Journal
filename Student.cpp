@@ -21,7 +21,7 @@ void Group::ListStudent() {
 	if (student.empty())
 	{
 		system("cls");
-		cout << "Данных нет!";
+		cout << "Empty!!!";
 		
 	}
 	else
@@ -39,7 +39,7 @@ void Group::AddStudent(Group& gr)
 {
 	string n;
 	system("cls");
-	cout << "\nВведите Фамилия Имя : ";
+	cout << "\nEnter Last name First name : ";
 	cin.ignore(32767, '\n');
 	getline(cin,n);
 	cout << n;
@@ -49,7 +49,7 @@ void Group::AddStudent(Group& gr)
 void Group::ShowGroup() {
 	system("cls"); 
 	if (student.empty())
-		cout << "Данных нет!";
+		cout << "Empty!";
 	else
 	for (int i = 0; i < student.size(); i++)
 		student[i].ShowMarkStudent(student[i]); }
@@ -61,31 +61,31 @@ void Group::SetMark(Group& gr)
 {
 	int n = 0, s, i;
 	gr.ListStudent();
-	cout << "\nВыберите студента : ";
+	cout << "\nSelect student : ";
 	cin >> n;
 	n--;
 	while (n >= student.size() || n <= 0)
 	{
-		cout << "\nНеправильный ввод!";
-		cout << "\nВведите студента № ";
+		cout << "\nIncorrect entry!";
+		cout << "\nSelect student в„– ";
 		cin >> n;
 		n--;
 	}
 	system("cls");
 	student[n].ShowStudent();
-	cout << "\nВыберите предмет 1 - UML 2 - C++ : ";
+	cout << "\nSelect Item 1 - UML 2 - C++ : ";
 	cin >> s;
 	while (s < 1 || s>2)
 	{
-			cout << "\nНеправильный ввод!";
-			cout << "\nВыберите предмет 1 - UML 2 - C++ : ";
+			cout << "\nIncorrect entry!";
+			cout << "\nSelect item 1 - UML 2 - C++ : ";
 			cin >> s;
 	}
-	cout << "\nПоставьте оценку :  ";
+	cout << "\nTo rate :  ";
 	cin >> i;
 	while (i < 0 || i>12) {
-		cout << "\nНеправильный ввод";
-		cout << "\nПоставьте оценку от 0 до 12 : ";
+		cout << "\nIncorrect entry";
+		cout << "\nRate  0 - 12 : ";
 		cin >> i;
 	}
 		switch (s) {
