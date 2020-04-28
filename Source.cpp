@@ -10,14 +10,14 @@ int main()
 	Group group;
 	while (key != 0)
 	{
-		cout << "\n\n1 - Список студентов ";
-		cout << "\n2 - Посмотреть успеваемость студентов ";
-		cout << "\n3 - Добавить студента ";
-		cout << "\n4 - Поставить оценку  ";
-		cout << "\n5 - Сохранить ";
-		cout << "\n6 - Загрузить ";
-		cout << "\n7 - Выход ";
-		cout << "\nВведите : ";
+		cout << "\n\n1 - List Student ";
+		cout << "\n2 - Show student performance ";
+		cout << "\n3 - Add student ";
+		cout << "\n4 - Set Rate  ";
+		cout << "\n5 - Save ";
+		cout << "\n6 - Load ";
+		cout << "\n7 - Exit ";
+		cout << "\nThe choice : ";
 		cin >> key;
 		switch (key)
 		{
